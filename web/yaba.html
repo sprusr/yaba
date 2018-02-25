@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+
+    .yaba {
+      padding-top: 15%;
+      padding-bottom: 5%;
+    }
+
+    .btn:hover,
+    .btn-large:hover,
+    .btn-floating:hover {
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)
+    }
+
+    img {
+      max-width: 35%;
+      height: auto;
+    }
+
+    .btn:hover,
+    .btn-large:hover {
+      background-color: #6c6c6c;
+      color: white;
+    }
+
+    .centerify {
+      text-align: center;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .centerify-item {
+      flex: 1;
+    }
+
+    .button {
+      background-color: white;
+      color: black;
+    }
+
+    h5 {
+      color: white;
+      font-family: 'Abel', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(45deg, #BAE62F, #566C17);
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="centerify yaba">
+          <img src="yabatitle.png" alt="YABA">
+        </div>
+        <div class="col m6 s12 centerify">
+          <div class="row">
+            <h5>OWNER</h5>
+            <svg height=10px width=auto>
+  <line x1="10" y1="0" x2="350" y2="0" style="stroke:#6C6C6C; stroke-width:2"/>
+</svg>
+            <div class="row">
+              <a class="btn-large waves-effect waves-light button" href="propose.html"><i class="material-icons left">description</i>PROPOSE A BOUNTY</a>
+            </div>
+            <div class="row">
+              <a class="btn-large waves-effect waves-light button" href="authorize.html"><i class="material-icons left">verified_user</i>AUTHORIZE BOUNTY</a>
+            </div>
+          </div>
+        </div>
+        <div class="col m6 s12 centerify">
+          <div class="row">
+            <h5>CONTRIBUTOR</h5>
+            <svg height=10px width=auto>
+  <line x1="10" y1="0" x2="350" y2="0" style="stroke:#6C6C6C; stroke-width:2"/>
+</svg>
+            <div class="row">
+              <a class="btn-large waves-effect waves-light button" href="collect.html"><i class="material-icons left">local_atm</i>COLLECT A BOUNTY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
