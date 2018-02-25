@@ -1,0 +1,22 @@
+{
+  "name": "yaba",
+  "version": "1.0.0",
+  "description": "Yet another bounty app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "php -S localhost:8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprusr/yaba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sprusr/yaba/issues"
+  },
+  "homepage": "https://github.com/sprusr/yaba#readme",
+  "dependencies": {
+  }
+}
