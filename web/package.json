@@ -18,5 +18,6 @@
   },
   "homepage": "https://github.com/sprusr/yaba#readme",
   "dependencies": {
+    "github-api": "^3.0.0"
   }
 }

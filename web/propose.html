@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 
-<link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="main.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-<div class="container">
+  <div class="container">
     <div class="row">
       <div class="col s12">
         <div class="centerify yaba">
@@ -27,22 +28,36 @@
       </div>
       <div class="col s12 center">
         <form class="pure-form">
-  <input class="pure-input" type="text" placeholder="GitHub Issue URL">
-</form>
+          <input id="username" class="pure-input" type="text" placeholder="GitHub Username">
+        </form>
       </div>
       <div class="col s12 center">
         <form class="pure-form">
-  <input class="pure-input" type="text" placeholder="Bounty Given ($)">
-</form>
+          <input id="password" class="pure-input" type="password" placeholder="GitHub Password">
+        </form>
+      </div>
+      <div class="col s12 center">
+        <form class="pure-form">
+          <input id="issue" class="pure-input" type="text" placeholder="GitHub Issue URL">
+        </form>
+      </div>
+      <div class="col s12 center">
+        <form class="pure-form">
+          <input id="bounty" class="pure-input" type="text" placeholder="Bounty Given ($)">
+        </form>
       </div>
       <div class="col s12 centerify">
-        <a class="btn-large button"><i class="material-icons left">send</i>PUBLISH BOUNTY</a>
+        <a class="btn-large button" id="proposeBtn"><i class="material-icons left">send</i>PUBLISH BOUNTY</a>
       </div>
     </div>
-</div>
+  </div>
+
+
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="dist/main.js"></script>
 </body>
+
 </html>
